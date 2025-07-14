@@ -43,6 +43,17 @@
       "salary": "10000000",
       "password": "12345",
       "date": "2025-07-14"
+    },
+    {
+      "name": "dilu",
+      "email": "dilu@gmail.com",
+      "department": "marketing",
+      "designation": "midlevel",
+      "userType": "employee",
+      "salary": "40000",
+      "password": "12345",
+      "date": "2025-07-14",
+      "id": "d29b"
     }
   ]
 }
