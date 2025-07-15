@@ -7,6 +7,7 @@ import Home from './pages/home';
 import EmployeeForm from './pages/employee';
 import DashboardForm from './pages/dashboard';
 import ProtectedRoute from './components/Utils/protectedRoute';
+import Unauthorized from './components/Utils/unauthorize';
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<LoginForm/>} />
+        <Route path="/Unauthorized" element={<Unauthorized/>} />
         <Route path="Home" 
         element={ 
         <ProtectedRoute>
